@@ -1,0 +1,335 @@
+.referral-input {
+    position: relative;
+}
+.referral-input input {
+    height: 60px;
+    padding: 0 20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #dedede;
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #888888;
+}
+.referral-input .btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 60px;
+    padding: 0 30px;
+    line-height: 60px;
+    font-size: 18px;
+    text-transform: uppercase;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+@media (max-width: 575px) {
+    .referral-input .btn {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+}
+.referral-input.ref-small input {
+    height: 50px;
+}
+.referral-input.ref-small .btn {
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+}
+.la-dot-circle {
+    font-size: 18px !important;
+  }
+
+  .photo-card__close {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 25px;
+      height: 25px;
+      background-color: #de4463;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+	  z-index: 10;
+
+  }
+
+  
+.cssload-loader {
+	width: 244px;
+	height: 49px;
+	line-height: 49px;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+	font-family: helvetica, arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size:18px;
+	color: rgb(206,66,51);
+	letter-spacing: 0.2em;
+}
+.cssload-loader::before, .cssload-loader::after {
+	content: "";
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: rgb(206,66,51);
+	position: absolute;
+	animation: cssload-load 0.81s infinite alternate ease-in-out;
+		-o-animation: cssload-load 0.81s infinite alternate ease-in-out;
+		-ms-animation: cssload-load 0.81s infinite alternate ease-in-out;
+		-webkit-animation: cssload-load 0.81s infinite alternate ease-in-out;
+		-moz-animation: cssload-load 0.81s infinite alternate ease-in-out;
+}
+.cssload-loader::before {
+	top: 0;
+}
+.cssload-loader::after {
+	bottom: 0;
+}
+
+
+
+@keyframes cssload-load {
+	0% {
+		left: 0;
+		height: 29px;
+		width: 15px;
+	}
+	50% {
+		height: 8px;
+		width: 39px;
+	}
+	100% {
+		left: 229px;
+		height: 29px;
+		width: 15px;
+	}
+}
+
+@-o-keyframes cssload-load {
+	0% {
+		left: 0;
+		height: 29px;
+		width: 15px;
+	}
+	50% {
+		height: 8px;
+		width: 39px;
+	}
+	100% {
+		left: 229px;
+		height: 29px;
+		width: 15px;
+	}
+}
+
+@-ms-keyframes cssload-load {
+	0% {
+		left: 0;
+		height: 29px;
+		width: 15px;
+	}
+	50% {
+		height: 8px;
+		width: 39px;
+	}
+	100% {
+		left: 229px;
+		height: 29px;
+		width: 15px;
+	}
+}
+
+@-webkit-keyframes cssload-load {
+	0% {
+		left: 0;
+		height: 29px;
+		width: 15px;
+	}
+	50% {
+		height: 8px;
+		width: 39px;
+	}
+	100% {
+		left: 229px;
+		height: 29px;
+		width: 15px;
+	}
+}
+
+@-moz-keyframes cssload-load {
+	0% {
+		left: 0;
+		height: 29px;
+		width: 15px;
+	}
+	50% {
+		height: 8px;
+		width: 39px;
+	}
+	100% {
+		left: 229px;
+		height: 29px;
+		width: 15px;
+	}
+}
+
+.image-description{
+	
+	border: 2px solid #e5e5e5;
+	padding: 15px 25px;
+	margin-top: 25px;
+	min-height:222px; /* or whatever width you want. */
+	max-height: 100%; /* or whatever width you want. */
+	
+	border-radius: 5px;
+	
+}
+
+.image-description .description-text {
+	word-break: break-all;
+	display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	
+}
+.image-tags-list {
+	margin: -5px;
+}
+.image-tags-list li {
+	padding: 3px 10px;
+	border: 1px solid #e5e5e5;
+	border-radius: 3px;
+	margin: 5px;
+	font-size: 14px;
+}
+@media (max-width: 991px) {
+	.image-description {
+		height: auto;
+	}
+}
+.card-deposit .photo-upload-area {
+	padding: 0 !important;
+}
+
+.faq-item {
+    border-radius: 8px;
+    background: #f7fbff;
+    padding: 28px 40px;
+    margin-bottom: 20px;
+}
+
+.faq-item .faq-title {
+    border: none;
+    position: relative;
+    cursor: pointer;
+    margin: 0;
+}
+
+.faq-item .faq-title .title {
+    border: none;
+    margin: 0;
+    width: calc(100% - 10px);
+    text-transform: capitalize;
+}
+
+.faq-item .faq-title .right-icon {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 22px;
+    top: 0;
+}
+
+.faq-item .faq-title .right-icon::after, .faq-item .faq-title .right-icon::before {
+    position: absolute;
+    content: '';
+    background: #555555;
+    top: 50%;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.faq-item .faq-title .right-icon::before {
+    width: 2px;
+    height: 20px;
+}
+
+.faq-item .faq-title .right-icon::after {
+    width: 20px;
+    height: 2px;
+}
+
+.faq-item .faq-content {
+    padding: 0;
+    padding-top: 30px;
+    display: none;
+}
+
+.faq-item.open .faq-title .title {
+    color: #DE4463;
+}
+
+.faq-item.open .faq-title .right-icon::after, .faq-item.open .faq-title .right-icon::before {
+    background: #DE4463;
+}
+
+.faq-item.open .faq-title .right-icon::before {
+    height: 0;
+}
+
+.faq-item.active .faq-content {
+    display: block;
+}
+
+/* new css */
+.filter-menu-wrapper {
+	padding-bottom: 30px;
+}
+.filter-menu li{
+	margin: 3px 5px;
+}
+.filter-menu li a {
+	color: #777;
+	padding: 6px 18px;
+	border-bottom: 1px solid transparent;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+}
+.filter-menu li.active a {
+	background-color: #de4463;
+	color: #fff;
+}
+.filter-select {
+	min-height: 40px;
+	line-height: 42px;
+	position: relative;
+}
+.filter-select .list {
+	z-index: 99;
+}
+
+@media (max-width: 991px) {
+	.filter-menu li a {
+		padding: 6px 10px;
+	}
+}
